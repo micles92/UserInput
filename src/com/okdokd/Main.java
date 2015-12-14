@@ -28,8 +28,8 @@ public class Main {
 
         }
 
-        for(int i = 0; i<y; i++){
-            System.out.print(list.get(i)+ " ");
+        for(int i : list){
+            System.out.print(i + " ");
         }
         System.out.println();
 
